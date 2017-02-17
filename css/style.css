@@ -97,7 +97,7 @@ nav li ul li {
     background-color: #35c660;
 }
 nav li ul a{
-    padding: 13px 69px;
+    padding: 13px 82px;
 }
 #sub:hover ul{
     display: block;
@@ -307,6 +307,7 @@ footer span {
     nav li ul li {
         overflow: hidden;
         width: 100%;
+        max-width: 900px;
     }
     nav li ul {
         width: 100%;
