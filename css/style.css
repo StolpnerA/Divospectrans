@@ -306,14 +306,13 @@ footer span {
     }
     nav li ul li {
         overflow: hidden;
-        width: 100%;
         max-width: 900px;
     }
     nav li ul {
         width: 100%;
     }
     nav li ul li a {
-        padding-right: 100%;
+        padding-right: 900px;
     }
     .activeNav {
         border-bottom: none;
