@@ -3,13 +3,6 @@
  */
 
 $(function () {
-    $('#fS').click(function () {
-        $('form').slideToggle('1500');
-    });
-
-    $('#cancel').click(function () {
-        $('form').slideUp('1500');
-    });
     $('article').css('display', 'none');
     $('article').fadeIn(1200);
     $('article.main img').css({
