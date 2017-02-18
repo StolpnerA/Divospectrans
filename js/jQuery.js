@@ -12,12 +12,11 @@ $(function () {
     });
     $('article').css('display', 'none');
     $('article').fadeIn(1200);
-    $('.ddImg').css('text-align', 'left')
     $('article.main img').css({
         'width': '0'
     });
     $('article.main img').animate({
-        'width': '200px'
+        'width': '320',
     }, 500);
 });
 
